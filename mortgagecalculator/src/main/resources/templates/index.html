@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Mortgage Calculator</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<section class="vh-100" style="background-color: #2779e2;">
+	  <div class="container h-100">
+	    <div class="row d-flex justify-content-center align-items-center h-100">
+	      <div class="col-xl-9">
+	
+	        <h1 class="text-white mb-4" align="center">Calculate Your Interest</h1>
+	
+	        <div class="card" style="border-radius: 15px;">
+	          <div class="card-body">
+
+	            <!-- Form starts here -->
+	            <form th:action="@{result}" th:object="${interest}" method="post">
+	
+	              <div class="row align-items-center pt-4 pb-3">
+	                <div class="col-md-3 ps-5">
+	                  <h6 class="mb-0">Principal Amount</h6>
+	                </div>
+	                <div class="col-md-5 pe-5">
+	                  <input type="text" th:field="*{principalAmount}" class="form-control form-control-lg" placeholder="Enter Amount"/>
+	                </div>
+	              </div>
+	
+	              <hr class="mx-n3">
+	
+	              <div class="row align-items-center py-3">
+	                <div class="col-md-3 ps-5">
+	                  <h6 class="mb-0">Annual Interest Rate</h6>
+	                </div>
+	                <div class="col-md-5 pe-5">
+	                  <input type="text" th:field="*{interestRate}" class="form-control form-control-lg" placeholder="In Percentage %" />
+	                </div>
+	              </div>
+	
+	              <hr class="mx-n3">
+	
+	              <div class="row align-items-center py-3">
+	                <div class="col-md-3 ps-5">
+	                  <h6 class="mb-0">Term In Years</h6>
+	                </div>
+	                <div class="col-md-5 pe-2">
+	                  <input type="text" th:field="*{termInYears}" class="form-control form-control-lg" placeholder="Term in years" />
+	                </div>
+	              </div>
+	
+	              <hr class="mx-n3">
+	
+	              <div class="px-2 py-6">
+	                <button type="submit" class="btn btn-primary">Calculate</button>
+	              </div>
+	
+	            </form>
+	            <!-- Form ends here -->
+	            
+	          </div>
+	        </div>
+	
+	      </div>
+	    </div>
+	  </div>
+	</section>
+</body>
+</html>
