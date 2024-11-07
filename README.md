@@ -45,7 +45,7 @@ This project uses **Spring Web** to handle the backend logic and **Thymeleaf** a
 
 For a **Principal Amount** of $100,000, an **Annual Interest Rate** of 5%, and a **Term** of 15 years, the calculator will output the total interest payable over the loan period.
 
-![image alt]()
+![image alt](https://github.com/PradheeshKumarS/MortgageCalculatorWebApp/blob/80eadc84d2e7906950fa296ebe69e3863d1b2300/mcalc1.png)
 
 ## License
 
