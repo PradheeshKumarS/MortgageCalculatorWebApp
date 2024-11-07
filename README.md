@@ -26,34 +26,6 @@ This project uses **Spring Web** to handle the backend logic and **Thymeleaf** a
 - **Java Development Kit (JDK)** 11 or higher
 - **Maven** (for managing dependencies)
 
-### Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/yourusername/mortgage-calculator.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd mortgage-calculator
-    ```
-
-3. Build the project using Maven:
-
-    ```bash
-    mvn clean install
-    ```
-
-4. Run the application:
-
-    ```bash
-    mvn spring-boot:run
-    ```
-
-5. Open your browser and navigate to `http://localhost:8080` to use the Mortgage Calculator.
-
 ## Usage
 
 1. Enter the **Principal Amount** (e.g., $100,000).
@@ -72,16 +44,6 @@ This project uses **Spring Web** to handle the backend logic and **Thymeleaf** a
 ## Example Calculation
 
 For a **Principal Amount** of $100,000, an **Annual Interest Rate** of 5%, and a **Term** of 15 years, the calculator will output the total interest payable over the loan period.
-
-## Contributing
-
-Contributions are welcome! If you have suggestions or improvements, please submit a pull request.
-
-1. Fork the project
-2. Create a new branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a pull request
 
 ## License
 
