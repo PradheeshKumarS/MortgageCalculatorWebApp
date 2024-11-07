@@ -47,6 +47,10 @@ For a **Principal Amount** of $100,000, an **Annual Interest Rate** of 5%, and a
 
 ![image alt](https://github.com/PradheeshKumarS/MortgageCalculatorWebApp/blob/80eadc84d2e7906950fa296ebe69e3863d1b2300/mcalc1.png)
 
+![image alt](https://github.com/PradheeshKumarS/MortgageCalculatorWebApp/blob/80eadc84d2e7906950fa296ebe69e3863d1b2300/mcalc2.png)
+
+
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
