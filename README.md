@@ -45,6 +45,8 @@ This project uses **Spring Web** to handle the backend logic and **Thymeleaf** a
 
 For a **Principal Amount** of $100,000, an **Annual Interest Rate** of 5%, and a **Term** of 15 years, the calculator will output the total interest payable over the loan period.
 
+![image alt]()
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
